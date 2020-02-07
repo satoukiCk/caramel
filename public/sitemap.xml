@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/about/</loc>
     <lastmod>2020-02-07T13:17:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/</loc>
     <lastmod>2020-02-07T13:17:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/first-post/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/posts/first-post/</loc>
     <lastmod>2020-02-07T13:05:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/posts/</loc>
     <lastmod>2020-02-07T13:05:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://competent-shannon-047a89.netlify.com/tags/</loc>
   </url>
   
 </urlset>
