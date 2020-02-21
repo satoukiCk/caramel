@@ -12,5 +12,5 @@ theme = "aether"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "friendly"
+    style = "github"
     tabWidth = 4
