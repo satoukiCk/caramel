@@ -1,7 +1,7 @@
 ---
 title: "jas HijackWrite自定义返回格式"
 date: 2020-02-18T19:03:18+08:00
-description: ""
+description: "探索HijackWrite"
 categories: []
 toc: false
 dropCap: false
