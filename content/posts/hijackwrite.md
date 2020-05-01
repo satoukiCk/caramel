@@ -4,7 +4,7 @@ date: 2020-02-18T19:03:18+08:00
 description: ""
 categories: []
 toc: false
-dropCap: true
+dropCap: false
 displayInMenu: false
 displayInList: true
 draft: false
