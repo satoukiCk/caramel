@@ -4,8 +4,6 @@ date: 2020-11-10T22:55:44+08:00
 draft: false
 ---
 
-## Go Select 的坑
-
 ```Go
 for {
     select {
@@ -23,3 +21,14 @@ for {
 然而，加入上面default的处理方式会不满足需求, 到出现不停执行for循环, 导致CPU占用过高。
 
 因此，无需多此一举，添加不处理任何工作的default的判断。
+
+```Go
+for {
+    select {
+        case <-a:
+            do work1
+        case <-b:
+            do work2
+    }
+}
+```
