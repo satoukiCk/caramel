@@ -63,7 +63,7 @@ menu:
       weight: 5
 
 params:
-  since: 2017
+  since: 2018
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -95,8 +95,8 @@ params:
     avatar: avatar.jpg
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: satoukick
-    author_title: HumuHumu
-    author_description: #常闇眷属
+    author_title: humuhumu
+    author_description: 常闇眷属
     location: Shanghai, China
     follow: https://github.com/satoukick
     # Social Links
