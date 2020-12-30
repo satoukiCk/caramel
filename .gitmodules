@@ -1,9 +1,9 @@
-[submodule "themes/aether"]
-	path = themes/aether
-	url = https://github.com/josephhutch/aether.git
-[submodule "themes/terminal"]
-	path = themes/terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
-[submodule "themes/pure"]
-	path = themes/pure
-	url = https://github.com/xiaoheiAh/hugo-theme-pure.git
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/mitrichius/hugo-theme-anubis.git
+[submodule "themes/fuji"]
+	path = themes/fuji
+	url = https://github.com/amzrk2/hugo-theme-fuji.git
+[submodule "themes/hugo-theme-stack"]
+	path = themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/

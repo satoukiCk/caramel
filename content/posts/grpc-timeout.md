@@ -2,11 +2,13 @@
 title: "gRPC KeepAlive 设置参数"
 date: 2020-11-20T20:31:38+08:00
 draft: false
+tags: ["gRPC"]
 ---
 
 # Keepalive
-
 一开始使用gRPC的stream模式的时候，遇到网络波动，Recv阻塞没有接受到信息，在gRPC的默认设置下，是会长时间等待，造成假死的现象。
+
+<!--more-->
 
 这种情况下，需要使用gRPC的Keepalive机制，无论客户端与服务端哪一方出现网络波动，在一定时间内Ping没有得到回应, 就需要断开连接，程序内部处理尝试重连。
 
