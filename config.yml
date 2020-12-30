@@ -106,17 +106,16 @@ menu:
       weight: -90
       pre: user
 
-    - identifier: archives
-      name: Archives
-      url: archives
-      weight: -70
-      pre: archives
-
-    - identifier: search
-      name: Search
-      url: search
-      weight: -60
-      pre: search
+    # - identifier: archives
+    #   name: Archives
+    #   url: archives
+    #   weight: -70
+    #   pre: archives
+    # - identifier: search
+    #   name: Search
+    #   url: search
+    #   weight: -60
+    #   pre: search
 
 related:
   includeNewer: true
