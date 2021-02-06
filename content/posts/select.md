@@ -4,6 +4,9 @@ date: 2020-11-10T22:55:44+08:00
 draft: false
 ---
 
+Select 关键字 default case 遇到的坑
+<!--more-->
+
 ```Go
 for {
     select {

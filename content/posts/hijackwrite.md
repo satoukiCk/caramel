@@ -15,9 +15,10 @@ resources:
     description: ""
 ---
 
-## 简介
 
 jas的Context中,通过为HijackWrite加入自定义的函数，可以用来改变返回的结构。
+<!--more-->
+
 
 ## 问题
 

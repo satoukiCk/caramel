@@ -9,6 +9,10 @@ displayInList: true
 description: "换个域名也有各种问题呢"
 ---
 
+换个域名也有各种问题呢
+<!--more-->
+
+
 ## 小小的琐事
 
 最近Netlify[搬域名](https://community.netlify.com/t/changes-coming-to-netlify-site-urls/8918)了，会把*.netlify.com重定向至*.netlify.app。按照Netlify的说法，用户基本不需要任何工作，就能完成迁移。

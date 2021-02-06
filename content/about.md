@@ -7,4 +7,4 @@ displayInMenu: true
 displayInList: false
 ---
 
-# Title 1
+[Blog theme anatole](https://github.com/lxndrblz/anatole/)

@@ -5,8 +5,8 @@ draft: false
 tags: ["gRPC"]
 ---
 
-# Keepalive
-一开始使用gRPC的stream模式的时候，遇到网络波动，Recv阻塞没有接受到信息，在gRPC的默认设置下，是会长时间等待，造成假死的现象。
+## Keepalive
+使用gRPC的stream模式时，遇到网络波动，Recv阻塞没有接受到信息，在gRPC的默认设置下，是会长时间等待，造成假死的现象。
 
 <!--more-->
 
