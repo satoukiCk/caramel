@@ -57,5 +57,5 @@ draft: false
 - 生成 nonce 和 state，都使用 go 的 crypto/rand，生成32位长度随机字符串，并用 URL 标准的 Base64 编码。
 
 ## 参考文档
-[OAuth Replay Attack Mitigation ](https://medium.com/@benjamin.botto/oauth-replay-attack-mitigation-18655a62fe53)更完整地解释 OAuth 安全相关的问题。</br>
-[OpenID Connect 官方文档](https://openid.net/specs/openid-connect-core-1_0.html)
+- [OAuth Replay Attack Mitigation ](https://medium.com/@benjamin.botto/oauth-replay-attack-mitigation-18655a62fe53)更完整地解释 OAuth 安全相关的问题。
+- [OpenID Connect 官方文档](https://openid.net/specs/openid-connect-core-1_0.html)
