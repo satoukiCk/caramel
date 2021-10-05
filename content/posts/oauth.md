@@ -2,6 +2,10 @@
 title: "Oauth state 与 nonce"
 date: 2021-08-03T22:51:07+08:00
 draft: false
+description: Oauth state 与 nonce
+keywords:
+  - OAuth
+  - OpenID
 ---
 接触 Oauth 2.0 state & nonce 
 <!--more-->
