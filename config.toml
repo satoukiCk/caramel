@@ -2,7 +2,6 @@ baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Caramel"
-theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
@@ -21,7 +20,7 @@ pygmentsCodefencesGuessSyntax = true
 [params]
 title = "Caramel"
 author = "satoukick's Blog"
-copyright = "2019-2022"
+copyright = "2019-{{ YEAR }}"
 description = "そうそう、かかってこい"
 profilePicture = "images/avatar.jpg"
 keywords = ""
@@ -93,6 +92,13 @@ url = "mailto:weems1995@hotmail.com"
   weight = 300
   identifier = "about"
   url = "/about/"
+  
+  [[menu.main]]
+  name = "Portfolio"
+  weight = 400
+  identifier = "portfolio"
+  url = "/portfolio/"
+
 
 #   [[menu.main]]
 #   name = "Contact"

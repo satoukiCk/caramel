@@ -1,0 +1,16 @@
+portfolioitems:
+  # portfolio category
+  - title: Coding Projects
+    # items within a category
+    portfolioitem:
+      - name: neko
+        image: '/images/portfolio/code.jpg'
+        link: https://github.com/satoukick/neko
+        description: 'cat(1) for learning Rust'
+        tags:
+          - rust
+        status: 'Ongoing'
+        start: '2020'
+        end: ''
+        authors:
+          - satoukick
