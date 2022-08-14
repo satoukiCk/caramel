@@ -4,14 +4,11 @@ date: 2022-08-13T15:39:29+08:00
 draft: false
 ---
 
-Atomic pointer 的使用
+本文也同样用于公司内部的技术分享。
 <!--more-->
-随着 Go 1.19 的发布，Go 语言团队升级 [sync/atomic](https://pkg.go.dev/sync/atomic@go1.19), 
-在其中加入了 `atomic.Pointer[T]` 的新类型，也是第一个作为全新 API 加入标准库，支持泛型的数据类型，受到 Go 社区用户的关注。同时，官方在 [Release Notes](https://tip.golang.org/doc/go1.19#mem) 中，也提及到这个 API 的加入，使得原子值使用更加简单。
+随着 Go 1.19 的发布，Go 语言团队升级 [sync/atomic](https://pkg.go.dev/sync/atomic@go1.19), 在其中加入了 `atomic.Pointer[T]` 的新类型，也是第一个作为全新 API 加入标准库，支持泛型的数据类型，受到 Go 社区用户的关注。同时，官方在 [Release Notes](https://tip.golang.org/doc/go1.19#mem) 中，也提及到这个 API 的加入，使得原子值使用更加简单。
 
 # atomic.Value 的时髦"替身" (sleeky alternative)
-`atomic.Value` 一般用于更新一个
-
 ## 特征
 `atomic.Pointer` 是泛型类。与 `atomic.Value` 不同的是，从 Value 类中拿出的数据，需要进行断言，才能取出需要的值。而 Pointer 得益于泛型，直接能得到对应的数据类型。
 
@@ -95,7 +92,7 @@ type ifaceWords struct {
 ```
 
 Pointer 的同样操作，因会在编译期确定类型，直接存储指针即可。实现和调用简单不少。
-```golang
+```go
 // Store atomically stores val into x.
 func (x *Pointer[T]) Store(val *T) { StorePointer(&x.v, unsafe.Pointer(val)) }
 ```
@@ -201,6 +198,6 @@ go run -race .\main.go
 在不方便使用新特性的情况下，`atomic.Value` 仍然是对复合数据进行并发原子操作的好选择。
 
 # 参考
-[Atomic Pointers in Go 1.19](https://betterprogramming.pub/atomic-pointers-in-go-1-19-cad312f82d5b)
-[Go 1.19 Release Notes](https://tip.golang.org/doc/go1.19#mem)
-[What’s new in Go 1.19?](https://blog.carlmjohnson.net/post/2022/golang-119-new-features/)
+- [Atomic Pointers in Go 1.19](https://betterprogramming.pub/atomic-pointers-in-go-1-19-cad312f82d5b)
+- [Go 1.19 Release Notes](https://tip.golang.org/doc/go1.19#mem)
+- [What’s new in Go 1.19?](https://blog.carlmjohnson.net/post/2022/golang-119-new-features/)
